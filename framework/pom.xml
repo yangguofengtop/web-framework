@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>framework</artifactId>
+	<packaging>pom</packaging>
+
+	<name>framework</name>
+
+	<modules>
+		<module>../framework-util</module>
+		<module>../framework-mvc</module>
+		<module>../framework-orm</module>
+		<module>../framework-cache</module>
+		<module>../framework-web</module>		
+		<module>../framework-search</module>
+		<module>../framework-jms</module>
+		<module>../framework-export</module>
+		<module>../framework-mvc-support</module>
+		<module>../framework-remote</module>
+    	<module>../framework-hadoop</module>
+  </modules>
+	<parent>
+		<groupId>com.chaosoft.pom</groupId>
+		<artifactId>main</artifactId>
+		<version>1.0.0</version>
+		<relativePath>../main</relativePath>
+	</parent>
+</project>
